@@ -16,7 +16,9 @@
 4.  Paste below code and press Enter:
 
 let jspdf = document.createElement( "script" );
+
 jspdf.onload = function () {
+
 let pdf = new jsPDF();
 let elements = document.getElementsByTagName( "img" );
 for ( let i in elements) {
